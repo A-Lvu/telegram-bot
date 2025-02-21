@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "telegram-bot"
+version = "0.1.0"
+description = "telegram-bot taht executes commands on host"
+authors = ["alvu"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+python-telegram-bot = "^21.10"
+rich = "^13.9.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
