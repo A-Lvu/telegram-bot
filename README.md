@@ -13,6 +13,7 @@ Set the API key and use this bot to execute some commands on a linux host
 
 ```bash
 pip install .
+echo "TOKEN = xxx" > .env
 python3 main.py
 ```
 
